@@ -8,7 +8,11 @@ import Routes from './routes';
 const App: React.FC = () => {
     return (
         <NavigationContainer>
-            <StatusBar barStyle="light-content" backgroundColor="#321e38" />
+            <StatusBar
+                barStyle="light-content"
+                backgroundColor="#321e38"
+                translucent
+            />
             <AppProvider>
                 <View style={{ backgroundColor: '#321e38', flex: 1 }}>
                     <Routes />
